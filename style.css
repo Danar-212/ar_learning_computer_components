@@ -113,3 +113,87 @@ body{
     font-size:18px;
   }
 }
+
+.detail-container{
+  max-width:800px;
+}
+
+/* gambar detail */
+.gambar-detail{
+  width:320px;
+  margin:20px auto;
+  display:block;
+  border-radius:10px;
+}
+
+/* teks deskripsi */
+.deskripsi{
+  font-size:18px;
+  line-height:1.6;
+  max-width:700px;
+  margin:20px auto;
+  text-align:justify;
+}
+
+/* tombol kembali */
+.btn-back{
+  position:fixed;
+  top:20px;
+  left:20px;
+  background:#38bdf8;
+  color:black;
+  padding:8px 16px;
+  border-radius:20px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* tombol AR */
+.btn-ar{
+  display:block;
+  width:280px;
+  margin:40px auto;
+  padding:18px;
+  background:#38bdf8;
+  color:black;
+  text-decoration:none;
+  border-radius:30px;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+}
+
+
+@media(max-width:600px){
+
+.detail-container{
+  width:95%;
+}
+
+#judul{
+  font-size:22px;
+}
+
+.gambar-detail{
+  width:220px;
+}
+
+.deskripsi{
+  font-size:16px;
+  line-height:1.5;
+  text-align:left;
+}
+
+.btn-ar{
+  width:90%;
+  font-size:18px;
+  padding:16px;
+}
+
+.btn-back{
+  top:10px;
+  left:10px;
+  font-size:14px;
+}
+
+}
