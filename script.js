@@ -49,10 +49,10 @@ deskripsi:"GPU adalah komponen komputer yang berfungsi untuk mengolah dan mempro
 ar:"https://asblr.com/ytHK4T"
 },
 
-cd:{
-judul:"CD / Optical Drive",
-gambar:"img/cd.jpg",
-deskripsi:"CD atau Optical Drive adalah perangkat yang digunakan untuk membaca dan menulis data pada media optik seperti CD dan DVD. Perangkat ini menggunakan sinar laser untuk membaca informasi yang tersimpan pada permukaan cakram optik. Saat ini penggunaan CD drive mulai berkurang karena banyak data disimpan melalui media digital seperti flashdisk dan cloud storage.",
+monitor:{
+judul:"Monitor",
+gambar:"img/monitor.jpg",
+deskripsi:"Monitor komputer adalah perangkat keras yang menampilkan data, teks, gambar, atau video dari komputer secara visual. Berbagai jenis monitor, seperti LED dan IPS, hadir dalam ukuran (19 hingga 32 inci) dan resolusi berbeda untuk produktivitas, gaming, maupun editing, dengan opsi port seperti HDMI, DisplayPort, atau USB-C",
 ar:"https://asblr.com/xcmAR2"
 },
 
