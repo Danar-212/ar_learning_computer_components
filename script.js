@@ -39,7 +39,7 @@ hdd:{
 judul:"HDD (Hard Disk Drive)",
 gambar:"img/hdd.jpg",
 deskripsi:"HDD adalah perangkat penyimpanan data yang menggunakan piringan magnetik berputar untuk menyimpan dan membaca data. HDD biasanya memiliki kapasitas penyimpanan yang besar dan sering digunakan untuk menyimpan sistem operasi, aplikasi, serta berbagai file pengguna seperti dokumen, gambar, dan video.",
-ar:"https://asblr.com/VlKEKX"
+ar:"https://asblr.com/zAKqUX"
 },
 
 gpu:{
