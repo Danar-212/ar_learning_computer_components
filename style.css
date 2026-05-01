@@ -198,4 +198,52 @@ body{
   font-size:14px;
 }
 
+.landing{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  text-align:center;
+}
+
+.landing-container{
+  max-width:600px;
+  padding:20px;
+}
+
+.landing h1{
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+.landing h2{
+  font-size:22px;
+  color:#38bdf8;
+  margin-bottom:20px;
+}
+
+.landing-text{
+  font-size:16px;
+  margin-bottom:30px;
+  line-height:1.5;
+}
+
+/* tombol masuk */
+.btn-masuk{
+  display:inline-block;
+  padding:12px 30px;
+  font-size:18px;
+  background:#38bdf8;
+  color:black;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn-masuk:hover{
+  background:#0ea5e9;
+  transform:scale(1.05);
+}
+  
 }
