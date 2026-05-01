@@ -245,4 +245,21 @@ body{
     font-size:16px;
   }
 
+/* wrapper logo */
+.logo-wrapper{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+/* FIX ukuran logo */
+.logo{
+  max-width:120px;   /* BATAS ukuran */
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
+  
 }
