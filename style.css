@@ -5,6 +5,9 @@ body{
   margin:0;
 }
 
+/* ========================= */
+/* CONTAINER */
+/* ========================= */
 .container{
   width:90%;
   max-width:1000px;
@@ -12,9 +15,11 @@ body{
   padding:40px 20px;
   text-align:center;
   position:relative;
-  z-index:1;
 }
 
+/* ========================= */
+/* GRID */
+/* ========================= */
 .grid{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
@@ -35,6 +40,9 @@ body{
   border-radius:10px;
 }
 
+/* ========================= */
+/* BUTTON UMUM */
+/* ========================= */
 .btn{
   display:inline-block;
   margin-top:10px;
@@ -43,6 +51,7 @@ body{
   color:black;
   text-decoration:none;
   border-radius:20px;
+  transition:0.3s;
 }
 
 .btn:hover{
@@ -50,6 +59,15 @@ body{
   transform:scale(1.05);
 }
 
+/* ========================= */
+/* HALAMAN DETAIL */
+/* ========================= */
+
+.detail-container{
+  max-width:800px;
+}
+
+/* gambar detail */
 .gambar-detail{
   width:300px;
   margin:20px auto;
@@ -57,6 +75,16 @@ body{
   border-radius:10px;
 }
 
+/* deskripsi */
+.deskripsi{
+  font-size:18px;
+  line-height:1.6;
+  max-width:700px;
+  margin:20px auto;
+  text-align:justify;
+}
+
+/* tombol kembali */
 .btn-back{
   position:fixed;
   top:15px;
@@ -67,7 +95,8 @@ body{
   border-radius:20px;
   text-decoration:none;
   font-weight:bold;
-  z-index:1000;  
+  z-index:1000;
+  transition:0.3s;
 }
 
 .btn-back:hover{
@@ -75,6 +104,7 @@ body{
   transform:scale(1.05);
 }
 
+/* tombol AR */
 .btn-ar{
   display:block;
   width:280px;
@@ -95,13 +125,81 @@ body{
   transform:scale(1.05);
 }
 
+/* ========================= */
+/* LANDING PAGE */
+/* ========================= */
+
+.landing{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  text-align:center;
+}
+
+.landing-container{
+  width:100%;
+  max-width:420px;
+  padding:30px 20px;
+  background: rgba(31, 41, 55, 0.6);
+  border-radius:20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* logo */
+.logo{
+  width:90px;
+  margin-bottom:15px;
+}
+
+/* teks landing */
+.landing h1{
+  font-size:26px;
+  margin-bottom:5px;
+}
+
+.landing h2{
+  font-size:18px;
+  color:#38bdf8;
+  margin-bottom:15px;
+}
+
+.landing-text{
+  font-size:15px;
+  margin-bottom:25px;
+  color:#cbd5e1;
+}
+
+/* tombol masuk */
+.btn-masuk{
+  display:block;
+  padding:12px;
+  background:#38bdf8;
+  color:black;
+  text-decoration:none;
+  border-radius:25px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn-masuk:hover{
+  background:#0ea5e9;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
 @media(max-width:900px){
   .grid{
     grid-template-columns: repeat(2,1fr);
   }
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
+
   .grid{
     grid-template-columns: repeat(1,1fr);
   }
@@ -110,154 +208,24 @@ body{
     width:220px;
   }
 
+  .deskripsi{
+    font-size:16px;
+    text-align:left;
+  }
+
   .btn-ar{
-    width:220px;
+    width:90%;
     font-size:18px;
   }
-}
 
-.detail-container{
-  max-width:800px;
-}
-
-/* gambar detail */
-.gambar-detail{
-  width:320px;
-  margin:20px auto;
-  display:block;
-  border-radius:10px;
-}
-
-/* teks deskripsi */
-.deskripsi{
-  font-size:18px;
-  line-height:1.6;
-  max-width:700px;
-  margin:20px auto;
-  text-align:justify;
-}
-
-/* tombol kembali */
-.btn-back{
-  position:fixed;
-  top:20px;
-  left:20px;
-  background:#38bdf8;
-  color:black;
-  padding:8px 16px;
-  border-radius:20px;
-  text-decoration:none;
-  font-weight:bold;
-}
-
-/* tombol AR */
-.btn-ar{
-  display:block;
-  width:280px;
-  margin:40px auto;
-  padding:18px;
-  background:#38bdf8;
-  color:black;
-  text-decoration:none;
-  border-radius:30px;
-  font-size:20px;
-  font-weight:bold;
-  text-align:center;
-}
-
-
-@media(max-width:600px){
-
-.detail-container{
-  width:95%;
-}
-
-#judul{
-  font-size:22px;
-}
-
-.gambar-detail{
-  width:220px;
-}
-
-.deskripsi{
-  font-size:16px;
-  line-height:1.5;
-  text-align:left;
-}
-
-.btn-ar{
-  width:90%;
-  font-size:18px;
-  padding:16px;
-}
-
-.btn-back{
-  top:10px;
-  left:10px;
-  font-size:14px;
-}
-
-/* LOGO */
-.logo-box{
-  margin-bottom:15px;
-}
-
-.logo{
-  width:90px;
-  height:90px;
-  object-fit:contain;
-}
-
-/* JUDUL */
-.landing h1{
-  font-size:28px;
-  margin-bottom:5px;
-}
-
-.landing h2{
-  font-size:20px;
-  color:#38bdf8;
-  margin-bottom:15px;
-}
-
-/* DESKRIPSI */
-.landing-text{
-  font-size:15px;
-  line-height:1.6;
-  margin-bottom:25px;
-  color:#cbd5f5;
-}
-
-/* BUTTON MASUK */
-.btn-masuk{
-  display:inline-block;
-  padding:12px 35px;
-  font-size:18px;
-  background:#38bdf8;
-  color:black;
-  text-decoration:none;
-  border-radius:30px;
-  font-weight:bold;
-  transition:0.3s;
-}
-
-.btn-masuk:hover{
-  background:#0ea5e9;
-  transform:scale(1.05);
-}
-
-/* RESPONSIVE HP */
-@media(max-width:500px){
-
-  .landing-container{
-    width:90%;
-    padding:25px 15px;
+  .btn-back{
+    top:10px;
+    left:10px;
+    font-size:14px;
   }
 
   .logo{
     width:70px;
-    height:70px;
   }
 
   .landing h1{
@@ -265,7 +233,7 @@ body{
   }
 
   .landing h2{
-    font-size:18px;
+    font-size:16px;
   }
 
   .landing-text{
@@ -273,9 +241,8 @@ body{
   }
 
   .btn-masuk{
-    width:80%;
+    width:100%;
     font-size:16px;
   }
 
-}
 }
