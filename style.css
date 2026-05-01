@@ -228,10 +228,60 @@ body{
   line-height:1.5;
 }
 
-/* tombol masuk */
+.landing{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  text-align:center;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+}
+
+/* container utama */
+.landing-container{
+  max-width:500px;
+  padding:30px 20px;
+  background: rgba(31, 41, 55, 0.6);
+  border-radius:20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* LOGO */
+.logo-box{
+  margin-bottom:15px;
+}
+
+.logo{
+  width:90px;
+  height:90px;
+  object-fit:contain;
+}
+
+/* JUDUL */
+.landing h1{
+  font-size:28px;
+  margin-bottom:5px;
+}
+
+.landing h2{
+  font-size:20px;
+  color:#38bdf8;
+  margin-bottom:15px;
+}
+
+/* DESKRIPSI */
+.landing-text{
+  font-size:15px;
+  line-height:1.6;
+  margin-bottom:25px;
+  color:#cbd5f5;
+}
+
+/* BUTTON MASUK */
 .btn-masuk{
   display:inline-block;
-  padding:12px 30px;
+  padding:12px 35px;
   font-size:18px;
   background:#38bdf8;
   color:black;
@@ -245,5 +295,36 @@ body{
   background:#0ea5e9;
   transform:scale(1.05);
 }
-  
+
+/* RESPONSIVE HP */
+@media(max-width:500px){
+
+  .landing-container{
+    width:90%;
+    padding:25px 15px;
+  }
+
+  .logo{
+    width:70px;
+    height:70px;
+  }
+
+  .landing h1{
+    font-size:22px;
+  }
+
+  .landing h2{
+    font-size:18px;
+  }
+
+  .landing-text{
+    font-size:14px;
+  }
+
+  .btn-masuk{
+    width:80%;
+    font-size:16px;
+  }
+
+}
 }
