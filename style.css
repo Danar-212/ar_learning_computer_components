@@ -198,55 +198,6 @@ body{
   font-size:14px;
 }
 
-.landing{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-  text-align:center;
-}
-
-.landing-container{
-  max-width:600px;
-  padding:20px;
-}
-
-.landing h1{
-  font-size:32px;
-  margin-bottom:10px;
-}
-
-.landing h2{
-  font-size:22px;
-  color:#38bdf8;
-  margin-bottom:20px;
-}
-
-.landing-text{
-  font-size:16px;
-  margin-bottom:30px;
-  line-height:1.5;
-}
-
-.landing{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-  text-align:center;
-  background: radial-gradient(circle at top, #1e293b, #020617);
-}
-
-/* container utama */
-.landing-container{
-  max-width:500px;
-  padding:30px 20px;
-  background: rgba(31, 41, 55, 0.6);
-  border-radius:20px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-}
-
 /* LOGO */
 .logo-box{
   margin-bottom:15px;
