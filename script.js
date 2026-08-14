@@ -3,11 +3,11 @@ const data = {
 mouse:{
 judul:"Mouse",
 gambar:"img/mouse.jpg",
-deskripsi:
+deskripsi:"
   <p>Mouse merupakan perangkat keras komputer yang digunakan untuk menggerakkan pointer atau kursor pada layar. Mouse umumnya memiliki tombol klik kiri dan kanan serta roda scroll untuk menggulung tampilan layar ke atas atau ke bawah. Selain itu, mouse dapat digunakan untuk melakukan drag and drop, yaitu memindahkan suatu elemen, berkas, atau file dengan menekan dan menahan tombol kiri mouse, kemudian menyeretnya ke lokasi yang diinginkan.</p>
 
   <p>Sumber: Kusmadi, I. Badrudin, B. L. Putra, & W. E. Cuntaka. (2022). <i>Informatika untuk SMK/MAK Kelas X Semester 1</i>. Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi.</p>
-    ,
+    ",
 ar:"https://asblr.com/DQ1qNF"
 },
 
