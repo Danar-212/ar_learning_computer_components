@@ -3,7 +3,7 @@ const data = {
 mouse:{
 judul:"Mouse",
 gambar:"img/mouse.jpg",
-deskripsi:"Mouse merupakan perangkat keras input pada komputer yang digunakan untuk menggerakkan kursor pada layar monitor. Dengan mouse pengguna dapat melakukan berbagai tindakan seperti klik, drag, scroll, dan memilih objek pada layar. Mouse biasanya memiliki dua tombol utama yaitu klik kiri dan klik kanan serta roda scroll di tengah. Mouse modern menggunakan sensor optik atau laser untuk mendeteksi gerakan dan dapat terhubung melalui kabel USB maupun secara nirkabel menggunakan teknologi wireless atau bluetooth.",
+deskripsi:"Mouse merupakan perangkat keras komputer yang digunakan untuk menggerakkan pointer atau kursor pada layar. Mouse umumnya memiliki tombol klik kiri dan kanan serta roda scroll untuk menggulung tampilan layar ke atas atau ke bawah. Selain itu, mouse dapat digunakan untuk melakukan drag and drop, yaitu memindahkan suatu elemen, berkas, atau file dengan menekan dan menahan tombol kiri mouse, kemudian menyeretnya ke lokasi yang diinginkan. Sumber: Kusmadi, I. Badrudin, B. L. Putra, & W. E. Cuntaka. (2022). Informatika untuk SMK/MAK Kelas X Semester 1. Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi.",
 ar:"https://asblr.com/DQ1qNF"
 },
 
