@@ -3,21 +3,21 @@ const data = {
 mouse:{
 judul:"Mouse",
 gambar:"img/mouse.jpg",
-deskripsi:"Mouse merupakan perangkat keras komputer yang digunakan untuk menggerakkan pointer atau kursor pada layar. Mouse umumnya memiliki tombol klik kiri dan kanan serta roda scroll untuk menggulung tampilan layar ke atas atau ke bawah. Selain itu, mouse dapat digunakan untuk melakukan drag and drop, yaitu memindahkan suatu elemen, berkas, atau file dengan menekan dan menahan tombol kiri mouse, kemudian menyeretnya ke lokasi yang diinginkan. Sumber: Kusmadi, I. Badrudin, B. L. Putra, & W. E. Cuntaka. (2022). Informatika untuk SMK/MAK Kelas X Semester 1. Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi.",
+deskripsi:"Mouse merupakan perangkat keras komputer yang digunakan untuk menggerakkan pointer atau kursor pada layar. Mouse umumnya memiliki tombol klik kiri dan kanan serta roda scroll untuk menggulung tampilan layar ke atas atau ke bawah. Selain itu, mouse dapat digunakan untuk melakukan drag and drop, yaitu memindahkan suatu elemen, berkas, atau file dengan menekan dan menahan tombol kiri mouse, kemudian menyeretnya ke lokasi yang diinginkan. [Sumber: Kusmadi, I. Badrudin, B. L. Putra, & W. E. Cuntaka. (2022). Informatika untuk SMK/MAK Kelas X Semester 1. Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi.]",
 ar:"https://asblr.com/DQ1qNF"
 },
 
 motherboard:{
 judul:"Motherboard",
 gambar:"img/motherboard.jpg",
-deskripsi:"Motherboard adalah saraf pusat dalam system komputer. Motherboard juga dapat terbagi sebagai single prosesor atau dual prosesor. Motherboard juga biasa dikenal sebagai papan utama (main board). Sistem yang terhubung dalam computer dikontrol dan dikendalikan oleh motherboard untuk berkomunikasi dengan perangkat atau piranti lainnya dalam sebuah sistem komputer Sumber: Kusmadi, I. Badrudin, B. L. Putra, & W. E. Cuntaka. (2022). Informatika untuk SMK/MAK Kelas X Semester 1. Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi.",
+deskripsi:"Motherboard adalah saraf pusat dalam system komputer. Motherboard juga dapat terbagi sebagai single prosesor atau dual prosesor. Motherboard juga biasa dikenal sebagai papan utama (main board). Sistem yang terhubung dalam computer dikontrol dan dikendalikan oleh motherboard untuk berkomunikasi dengan perangkat atau piranti lainnya dalam sebuah sistem komputer [Sumber: Kusmadi, I. Badrudin, B. L. Putra, & W. E. Cuntaka. (2022). Informatika untuk SMK/MAK Kelas X Semester 1. Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi.]",
 ar:"https://asblr.com/X1VjU0"
 },
 
 keyboard:{
 judul:"Keyboard",
 gambar:"img/keyboard.jpg",
-deskripsi:"Keyboard adalah perangkat input yang digunakan untuk memasukkan data berupa huruf, angka, simbol, dan perintah ke dalam komputer. Keyboard terdiri dari berbagai tombol seperti tombol huruf, tombol angka, tombol fungsi, serta tombol kontrol seperti Ctrl, Alt, dan Shift. Keyboard sangat penting dalam proses pengolahan data karena digunakan untuk mengetik dokumen, menjalankan perintah sistem, serta berinteraksi dengan berbagai aplikasi komputer.",
+deskripsi:"Keyboard atau papan ketik merupakan salah satu perangkat masukan/input pengolahan data yang terhubung dengan komputer. Keyboard dapat berfungsi memasukkan huruf, angka, karakter khusus dan sebagai media bagi pengguna untuk melakukan perintah khusus lainnya seperti shortcut untuk menyimpan, membuka, menghapus, memindahkan, meng-copy, dan lain-lain [Sumber: Kusmadi, I. Badrudin, B. L. Putra, & W. E. Cuntaka. (2022). Informatika untuk SMK/MAK Kelas X Semester 1. Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi.]",
 ar:"https://asblr.com/Db3GXY"
 },
 
