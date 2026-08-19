@@ -96,6 +96,71 @@ const data = {
             ${sumber}
         `,
         ar: "https://asblr.com/R1vIX5"
+    },
+
+        psu: {
+        judul: "PSU (Power Supply Unit)",
+        gambar: "img/psu.jpg",
+        deskripsi: `
+            <p>Power Supply Unit (PSU) atau catu daya merupakan komponen utama dalam perangkat elektronik yang berfungsi menyediakan energi listrik. Terdapat berbagai jenis power supply, seperti AC-DC, DC-DC, UPS, dan jenis lainnya yang dirancang untuk memenuhi kebutuhan spesifik setiap perangkat.</p>
+
+            <p>Power supply menjadi sumber utama energi listrik yang memungkinkan perangkat elektronik dapat berfungsi dengan baik. Tanpa power supply yang sesuai, perangkat elektronik tidak dapat bekerja secara optimal, bahkan dapat tidak beroperasi sama sekali. Seiring perkembangan teknologi, jenis power supply semakin beragam dan dirancang lebih spesifik sesuai dengan kebutuhan perangkat elektronik.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/u9AfTYg"
+    },
+
+    printer: {
+        judul: "Printer",
+        gambar: "img/printer.jpg",
+        deskripsi: `
+            <p>Printer merupakan perangkat yang digunakan untuk menampilkan data berupa teks, gambar, atau grafik dalam bentuk cetakan pada kertas. Printer dapat dihubungkan dengan komputer melalui kabel USB atau jaringan nirkabel (<i>wireless</i>) serta membutuhkan sumber daya listrik agar dapat digunakan.</p>
+
+            <p>Pada beberapa sistem operasi, printer memerlukan <i>driver</i> agar dapat dikenali dan digunakan oleh komputer. Beberapa sistem operasi modern dapat mengenali printer secara otomatis, tetapi pemasangan <i>driver</i> tetap dapat diperlukan agar seluruh fitur printer dapat digunakan secara maksimal.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/vvZsk8n"
+    },
+
+    webcam: {
+        judul: "Webcam",
+        gambar: "img/webcam.jpg",
+        deskripsi: `
+            <p>Webcam atau <i>web camera</i> merupakan perangkat kamera digital yang dapat terpasang pada laptop atau dihubungkan dengan komputer, misalnya menggunakan kabel USB. Webcam dapat digunakan sebagai perangkat tambahan pada komputer atau laptop yang tidak memiliki kamera bawaan maupun untuk memperoleh kualitas kamera yang lebih sesuai dengan kebutuhan pengguna.</p>
+
+            <p>Cara kerja webcam pada dasarnya menyerupai kamera digital, yaitu menangkap gambar atau video secara langsung (<i>real-time</i>). Webcam banyak digunakan untuk komunikasi video, pembelajaran daring, konferensi video, serta berbagai aktivitas yang membutuhkan pengambilan gambar melalui komputer.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/utJanrk"
+    },
+
+    proyektor: {
+        judul: "Proyektor",
+        gambar: "img/proyektor.jpg",
+        deskripsi: `
+            <p>Proyektor atau <i>projector</i> merupakan perangkat yang biasa digunakan untuk menampilkan presentasi atau tampilan dari komputer pada layar yang lebih besar. Proyektor dapat dihubungkan dengan komputer menggunakan kabel VGA, HDMI, atau koneksi lain yang didukung perangkat.</p>
+
+            <p>Proyektor biasanya diarahkan ke layar proyeksi atau permukaan dinding yang datar. Selain menampilkan gambar diam, proyektor juga dapat digunakan untuk menampilkan teks, presentasi, gambar bergerak, dan video.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/i8KzecO"
+    },
+
+    fan: {
+        judul: "Fan (Kipas Pendingin)",
+        gambar: "img/fan.jpg",
+        deskripsi: `
+            <p>Fan atau kipas pendingin merupakan salah satu komponen pendukung pada komputer yang berfungsi membantu menjaga suhu di dalam sistem komputer. Fungsi utamanya adalah membantu mengeluarkan udara panas dan menggantinya dengan udara yang lebih sejuk agar komponen komputer tidak mengalami panas berlebih.</p>
+
+            <p>Kipas pendingin dapat ditempatkan pada beberapa bagian komputer, seperti casing dan area sekitar processor. Kipas membantu proses sirkulasi udara sehingga suhu komponen komputer dapat tetap terjaga selama komputer digunakan.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/eXhe4W7"
     }
 
 };
