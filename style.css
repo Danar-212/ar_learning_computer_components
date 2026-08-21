@@ -845,3 +845,11 @@ body{
   }
 
 }
+
+/* ========================= */
+/* SUB KATEGORI PENYIMPANAN */
+/* ========================= */
+
+.sub-kategori-komponen{
+  display:none;
+}
