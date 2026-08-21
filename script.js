@@ -150,6 +150,82 @@ const data = {
         ar: "https://asblr.com/i8KzecO"
     },
 
+        memorycard: {
+        judul: "Memory Card",
+        gambar: "img/memorycard.jpg",
+        deskripsi: `
+            <p>Memory Card atau kartu memori merupakan media penyimpanan berukuran kecil yang menggunakan teknologi memori flash untuk menyimpan data. Perangkat ini banyak digunakan pada smartphone, kamera digital, dan berbagai perangkat elektronik lainnya. Memory Card dapat digunakan untuk menyimpan berbagai jenis data seperti dokumen, gambar, video, dan file lainnya.</p>
+
+            <p>Memory Card memiliki berbagai jenis dan kapasitas penyimpanan. Penggunaannya dapat membantu menambah ruang penyimpanan pada perangkat yang mendukung kartu memori.</p>
+        `,
+        ar: "https://asblr.com/iIYh1HU"
+    },
+
+    flashdisk: {
+        judul: "Flashdisk (USB Flash Drive)",
+        gambar: "img/flashdisk.jpg",
+        deskripsi: `
+            <p>USB Flash Memory atau flashdisk merupakan media penyimpanan data yang menggunakan memori flash tipe NAND dan memiliki konektor USB yang terintegrasi. Flashdisk umumnya memiliki ukuran kecil, ringan, mudah dibawa, serta dapat digunakan untuk membaca dan menulis data dengan mudah.</p>
+
+            <p>Flashdisk dapat digunakan untuk menyimpan dan memindahkan berbagai jenis data antarperangkat. Kapasitas penyimpanannya beragam dan bergantung pada teknologi memori flash yang digunakan.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/cGgv1LL"
+    },
+
+    scanner: {
+        judul: "Scanner",
+        gambar: "img/scanner.jpg",
+        deskripsi: `
+            <p>Scanner merupakan perangkat input yang digunakan untuk memindai dokumen, gambar, atau objek fisik sehingga dapat diubah menjadi data digital dan disimpan di dalam komputer. Hasil pemindaian dapat digunakan kembali dalam bentuk gambar atau dokumen digital.</p>
+
+            <p>Scanner membantu pengguna memasukkan informasi dari media cetak ke dalam komputer sehingga data tersebut dapat disimpan, diolah, maupun dibagikan secara digital.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/kZPcM3r"
+    },
+
+    microphone: {
+        judul: "Microphone",
+        gambar: "img/microphone.jpg",
+        deskripsi: `
+            <p>Microphone merupakan perangkat input yang digunakan untuk memasukkan suara ke dalam komputer. Perangkat ini dapat digunakan untuk merekam suara, melakukan komunikasi suara, maupun memberikan perintah melalui teknologi pengenalan suara atau <i>speech recognition</i>.</p>
+
+            <p>Suara yang diterima microphone akan diubah menjadi data yang dapat diproses oleh komputer untuk berbagai kebutuhan, seperti rekaman audio, konferensi daring, dan komunikasi digital.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/iupn8KW"
+    },
+
+    speaker: {
+        judul: "Speaker",
+        gambar: "img/speaker.jpg",
+        deskripsi: `
+            <p>Speaker merupakan perangkat output yang digunakan untuk menghasilkan keluaran berupa suara dari komputer. Speaker memungkinkan suara dari musik, video, aplikasi, maupun sistem komputer dapat didengarkan oleh pengguna.</p>
+
+            <p>Speaker biasanya digunakan ketika keluaran suara ingin didengarkan oleh lebih dari satu orang. Penggunaannya dapat disesuaikan dengan kebutuhan pengguna.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/bBbUX0I"
+    },
+
+    headset: {
+        judul: "Headset",
+        gambar: "img/headset.jpg",
+        deskripsi: `
+            <p>Headset merupakan perangkat yang digunakan untuk mendengarkan keluaran suara dari komputer secara pribadi. Berbeda dengan speaker yang dapat didengarkan oleh banyak orang, headset digunakan secara individual sehingga suara dapat didengarkan langsung oleh pengguna.</p>
+
+            <p>Beberapa jenis headset juga dilengkapi dengan microphone sehingga dapat digunakan untuk mendengarkan suara sekaligus memasukkan suara ke dalam komputer, misalnya untuk komunikasi daring atau konferensi video.</p>
+
+            ${sumber}
+        `,
+        ar: "https://asblr.com/sewfy6V"
+    },
+    
     fan: {
         judul: "Fan (Kipas Pendingin)",
         gambar: "img/fan.jpg",
