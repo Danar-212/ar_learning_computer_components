@@ -152,7 +152,7 @@ const data = {
 
         memorycard: {
         judul: "Memory Card",
-        gambar: "img/memorycard.jpg",
+        gambar: "img/memory.jpg",
         deskripsi: `
             <p>Memory Card atau kartu memori merupakan media penyimpanan berukuran kecil yang menggunakan teknologi memori flash untuk menyimpan data. Perangkat ini banyak digunakan pada smartphone, kamera digital, dan berbagai perangkat elektronik lainnya. Memory Card dapat digunakan untuk menyimpan berbagai jenis data seperti dokumen, gambar, video, dan file lainnya.</p>
 
